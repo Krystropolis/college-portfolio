@@ -1,0 +1,262 @@
+body {
+    font: 18px Montserrat, sans-serif;
+    line-height: 1.8;
+    background-image: url('http://personal.psu.edu/kye5098/portfolio/images/bg.png');
+    padding-top: 70px;
+}
+p {
+    font-size: 16px;
+}
+.margin {
+    margin-bottom: 45px;
+}
+
+.bg-purple {
+    background-color: #8730d6; /* Purple */
+    color: #ffffff;
+}
+
+.bg-darkp {
+    background-color: #5b1d95; /* Dark Purple */
+    color: #ffffff;
+}
+
+.bg-white {
+    background-color: #ffffff; /* White */
+}
+
+.bg-blackg {
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+}
+
+.bg-lightg {
+    background-color: #d3d3d3; /*light gray*/
+}
+
+.bg-lightb {
+    background-color: #d1f1fe;
+}
+
+.bg-lightp {
+    background-color: #c4c6fe;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.project-container {
+    margin: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    padding-right: 20px;
+}
+
+.navbar-nav li a:hover {
+    color: #000 !important;
+    background-color: #d1f1fe;
+}
+
+ul.nav-links li a {
+    color: white;
+}
+
+img.logo {
+    width: 35px;
+    transform: translateY(-12px);
+}
+
+.logo-title {
+    font-family: 'Pacifico', cursive;
+}
+
+.footer-small {
+    padding: 10px;
+}
+
+.carousel-inner img {
+    margin: auto;
+    min-height: 200px;
+    max-height: 500px;
+}
+
+.carousel-indicators li {
+    border-color: #d1f1fe;
+}
+.carousel-indicators .active {
+    background-color: #c4c6fe;
+}
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+/* Hide logo title when sm-screen-mobile */
+@media (max-width: 360px) {
+    .navbar-brand.logo {
+        display: none;
+    }
+}
+
+h3.resume-label {
+    border-bottom: 1px solid #000;
+}
+
+.job-title {
+    color: #b1f1ff;
+    text-shadow: 0px 1px 2px #000;
+}
+
+.cap-bg {
+    background-color: rgba(75, 0, 130, 0.3);
+}
+.navbar-nav > a {
+    color: white;
+}
+.position {
+    background-color: #fff;
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    border: 1px solid #c4c6fe;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.icon-bar {
+    color: #000;
+}
+
+button.navbar-toggle {
+    height: 100%;
+    margin: 0;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+/* social icons */
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.social-network a.icoTwitter {
+    background-color: #33ccff;
+}
+.social-network a.icoGmail {
+    background-color: #ff0000;
+}
+.social-network a.icoGitHub {
+    background-color: #000000;
+}
+.social-network a.icoLinkedin {
+    background-color: #007bb7;
+}
+.social-network a.icoBlogger {
+    background-color: orange;
+}
+.social-network a.icoGitHub:hover i,
+.social-network a.icoGmail:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoLinkedin:hover i,
+.social-network a.icoBlogger:hover i {
+    color: #fff;
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+    color: #44bcdd;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+/*offset targets due to fixed navbar */
+.anchor {
+    margin-top: 140px;
+    visibility: hidden;
+}
+
+.head {
+    margin: 1% 0;
+}
+
+#profile-pic {
+    width: 30%;
+    float: left;
+    border-radius: 10%;
+    margin: 2%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1.name {
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+    font-size: 2em;
+}
+
+.academic-info {
+    text-align: left;
+    font-family: 'Old Standard TT', serif;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 2%;
+}
+
+#download-resume {
+    margin: 5% auto;
+}
